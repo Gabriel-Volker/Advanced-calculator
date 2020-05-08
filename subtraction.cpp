@@ -2,8 +2,8 @@
 #include <string>
 std::string subtraction()
 {
-    float value1;
-    float value2;
+    double value1;
+    double value2;
     std::cout << "Enter the first value for the subtraction\n";
     std::cin >> value1;
     std::cout << "Enter the second value for the subtraction\n";

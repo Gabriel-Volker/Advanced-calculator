@@ -3,8 +3,8 @@
 
 std::string multiplication()
 {
-    float value1;
-    float value2;
+    double value1;
+    double value2;
     std::cout << "Enter the first value for the multiplication\n";
     std::cin >> value1;
     std::cout << "Enter the second value for the multiplication\n";
