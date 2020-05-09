@@ -11,7 +11,9 @@ int main()
     "1: Addition\n"
     "2: Subtraction\n"
     "3: Multiplication\n"
-    "4: Division\n";
+    "4: Division\n"
+    "5: Exponentiation"
+    "6: Square root";
     std::cin >> operation;
     if (operation == 1) // This is to select which mathematical operation to perform.
     {
