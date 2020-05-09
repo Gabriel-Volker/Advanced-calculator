@@ -9,8 +9,8 @@ int main()
     int operation;
     std::cout << "Select what you want to do\n"
     "1: Addition\n"
-    "2: subtraction\n"
-    "3: multiplication\n"
+    "2: Subtraction\n"
+    "3: Multiplication\n"
     "4: Division\n";
     std::cin >> operation;
     if (operation == 1) // This is to select which mathematical operation to perform.
@@ -25,7 +25,7 @@ int main()
     {
         std::cout << multiplication();
     }
-    else
+    else if (operation == 4)
     {
         std::cout << division();
     }
@@ -33,4 +33,4 @@ int main()
         The functions addition, subtraction, multiplication... are used to ask the user 
     for values, perform operations and return the result. 
     */
-}  
+}
