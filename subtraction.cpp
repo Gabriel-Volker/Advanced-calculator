@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 std::string subtraction()
 {
     long double value1;
